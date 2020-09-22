@@ -3,8 +3,7 @@ import kotlinscriptresources.script
 import kotlinscriptresources.usage
 
 script(this.args, this.javaClass.name) {
-    println(fileName)
-    println(exportName)
-    println(value)
-    println(quoteType)
+    println(foo)
+    println(bar)
+    println(baz)
 }
