@@ -1,7 +1,8 @@
 import kotlinscriptresources.Args
 import kotlinscriptresources.script
+import kotlinscriptresources.usage
 
-script(args) {
+script(this.args, this.javaClass.name) {
     println(fileName)
     println(exportName)
     println(value)
